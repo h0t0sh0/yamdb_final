@@ -1,3 +1,5 @@
+![example workflow](https://github.com/h0t0sh0/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 # Study project yamdb
 ### Description
 The project is designed to create a database of creations with a system of reviews and ratings
