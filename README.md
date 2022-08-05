@@ -1,5 +1,7 @@
 ![example workflow](https://github.com/h0t0sh0/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+server ip: http://51.250.12.38/api/v1/
+
 # Study project yamdb
 ### Description
 The project is designed to create a database of creations with a system of reviews and ratings
@@ -12,7 +14,7 @@ The project is designed to create a database of creations with a system of revie
 - Go to the directory containing docker-compose.yaml
   ```cd infra```
 - Run docker-compose to build the images and launch containers
-  ```docker-compose up -d --build```
+  ```docker-compose up -d```
 - Run migrations on the database to create the tables for the project
   ```docker-compose exec web python manage.py migrate```
 - We need a superuser to manage and administer the project, you can create it with the command
@@ -31,6 +33,7 @@ POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 DB_HOST=db
 DB_PORT=5432
+SECRET_KEY=some_string
 ```
 
 # Author
