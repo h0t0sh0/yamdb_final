@@ -24,7 +24,6 @@ router.register(
     basename='comment-list'
 )
 
-
 urlpatterns = [
     path(
         'v1/auth/signup/',
